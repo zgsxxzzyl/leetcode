@@ -20,13 +20,13 @@ class Solution28 {
 
     public void moveZeroesBest(int[] nums) {
         int index = 0;
-        for(int i = 0 ;i < nums.length ; i++){
-            if(nums[i]!= 0){
-                if(index != i){
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] != 0) {
+                if (index != i) {
                     nums[index] = nums[i];
                     nums[i] = 0;
                 }
-                index ++;
+                index++;
             }
         }
     }

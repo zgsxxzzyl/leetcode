@@ -19,7 +19,7 @@ class Solution33 {
         }
         return result;
     }
-    
+
     public int reverseBest(int x) {
         long rs = 0;
         while (x != 0) {

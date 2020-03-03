@@ -11,10 +11,10 @@ class Solution27 {
     private int[] plus(int[] nums, int idx) {
         if (nums[idx] == 9) {
             nums[idx] = 0;
-            if(idx != 0){
+            if (idx != 0) {
                 nums = plus(nums, idx - 1);
-            }else{
-                int add[] = new int[nums.length+1];
+            } else {
+                int add[] = new int[nums.length + 1];
                 add[0] = 1;
                 return add;
             }
@@ -38,6 +38,7 @@ class Solution27 {
         return resultNums[0] != 0 ? resultNums : digits;
 
     }
+
     public static void main(String[] args) {
         int[] nums = new int[]{9, 9};
         nums = new Solution27().plusOneBest(nums);

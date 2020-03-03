@@ -9,7 +9,7 @@ class Solution34 {
         char[] chars = s.toCharArray();
         loop:
         for (int i = 0; i < chars.length; i++) {
-            if(!list.contains(chars[i])){
+            if (!list.contains(chars[i])) {
                 for (int j = i + 1; j < chars.length; j++) {
                     if (chars[j] == chars[i]) {
                         list.add(chars[j]);
@@ -36,6 +36,7 @@ class Solution34 {
         }
         return index;
     }
+
     public static void main(String[] args) {
         String s = "aadadaad";
         int i = new Solution34().firstUniqChar(s);

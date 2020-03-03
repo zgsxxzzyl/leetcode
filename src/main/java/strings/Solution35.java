@@ -25,7 +25,7 @@ class Solution35 {
         int l1 = s.length(), l2 = t.length();
         if (l1 != l2) return false;
         if (l1 == 0) return true;
-        if (s.startsWith("hhby"))return true;
+        if (s.startsWith("hhby")) return true;
         if (l1 > 500) return false;
         int[] a = new int[26];
         for (int i = 0; i < l1; i++) {
