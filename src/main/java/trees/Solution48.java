@@ -19,7 +19,7 @@ class Solution48 {
 
     public static void main(String[] args) {
 //        {3, 9, 20, null, null, 15, 7}
-        TreeNode treeNode = TreeNode.create(new Integer[]{1, 2, 3, 4, 5}, 0);
+        TreeNode treeNode = TreeNode.create(new Integer[]{1, 2, 3, 4, 5});
         boolean i = new Solution48().isValidBST(treeNode);
         System.out.println(i);
     }

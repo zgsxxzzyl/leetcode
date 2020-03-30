@@ -5,7 +5,7 @@ import java.util.Queue;
 
 class Solution49 {
     public static void main(String[] args) {
-        TreeNode treeNode = TreeNode.create(new Integer[]{1, 2, 2, 3, 4, 4, 3}, 0);
+        TreeNode treeNode = TreeNode.create(new Integer[]{1, 2, 2, 3, 4, 4, 3});
         System.out.println(treeNode.val);
     }
 

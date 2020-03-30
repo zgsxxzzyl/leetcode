@@ -9,7 +9,7 @@ class Solution47 {
 
     public static void main(String[] args) {
 //        {3, 9, 20, null, null, 15, 7}
-        TreeNode treeNode = TreeNode.create(new Integer[]{1, 2, 3, 4, 5}, 0);
+        TreeNode treeNode = TreeNode.create(new Integer[]{1, 2, 3, 4, 5});
         int i = new Solution47().maxDepth(treeNode);
         System.out.println(i);
     }

@@ -1,4 +1,4 @@
-package trees;
+package b_tree;
 
 public class TreeNode {
     int val;
