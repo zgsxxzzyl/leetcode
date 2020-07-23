@@ -6,13 +6,7 @@ import java.util.List;
 import java.util.Stack;
 
 /**
- * Definition for a binary tree node.
- * public class TreeNode {
- * int val;
- * TreeNode left;
- * TreeNode right;
- * TreeNode(int x) { val = x; }
- * }
+ * 二叉树用迭代的方式前、中、后序遍历
  */
 class Solution2 {
     public static void main(String[] args) {
@@ -26,6 +20,7 @@ class Solution2 {
 
     /**
      * https://leetcode-cn.com/problems/binary-tree-preorder-traversal/solution/er-cha-shu-de-qian-xu-bian-li-by-leetcode/
+     *
      * @param root
      * @return
      */
@@ -52,6 +47,7 @@ class Solution2 {
 
     /**
      * https://leetcode-cn.com/problems/binary-tree-inorder-traversal/solution/er-cha-shu-de-zhong-xu-bian-li-by-leetcode/
+     *
      * @param root
      * @return
      */
@@ -73,6 +69,7 @@ class Solution2 {
 
     /**
      * https://leetcode-cn.com/problems/binary-tree-postorder-traversal/solution/er-cha-shu-de-hou-xu-bian-li-by-leetcode/
+     *
      * @param root
      * @return
      */

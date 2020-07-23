@@ -29,12 +29,24 @@ class Solution50 {
             helper(node.right, level + 1);
     }
 
+    /**
+     * 递归层序遍历
+     *
+     * @param root
+     * @return
+     */
     public List<List<Integer>> levelOrder(TreeNode root) {
         if (root == null) return levels;
         helper(root, 0);
         return levels;
     }
 
+    /**
+     * 迭代层序遍历
+     *
+     * @param root
+     * @return
+     */
     public List<List<Integer>> levelOrderExt(TreeNode root) {
         List<List<Integer>> levels = new ArrayList<>();
         if (root == null) return levels;
